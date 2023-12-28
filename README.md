@@ -6,6 +6,8 @@
 
 Bienvenido a **Journal App**, una aplicación desarrollada con **React** que te permite llevar un diario personalizado con la capacidad de almacenar notas y añadir imágenes. La aplicación utiliza diversas tecnologías, incluyendo **Redux**, **React Router**, **Firebase**, **Cloudinary** y **Material UI** para proporcionar una experiencia completa y fácil de usar.
 
+Ver [DEMO](https://journal-app-vert-five.vercel.app/auth/login).
+
 ## Características Principales
 
 - **Autenticación de Usuario:** Permite a los usuarios crear y gestionar cuentas personalizadas para acceder a la aplicación de forma segura.
@@ -19,6 +21,8 @@ Bienvenido a **Journal App**, una aplicación desarrollada con **React** que te 
 - **Navegación Fluida:** Se utiliza **React Router** para una navegación suave y una experiencia de usuario sin interrupciones.
 
 - **Gestión de Imágenes con Cloudinary:** Permite a los usuarios adjuntar imágenes a sus notas mediante la integración con **Cloudinary** para el almacenamiento y procesamiento de imágenes.
+
+- **Material UI:** La interfaz de usuario se ha diseñado utilizando componentes de Material UI para lograr un diseño atractivo y consistente.
 
 ## Configuración del Proyecto
 
