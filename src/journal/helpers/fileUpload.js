@@ -6,10 +6,13 @@
  * valid file object that you can obtain from an input element of type "file" in HTML.
  * @returns the secure URL of the uploaded file.
  */
+
+const cloudURL = import.meta.env.VITE_REACT_APP_CLOUDINARY_CLOUD_URL;
+
 export const fileUpload = async( file ) => {
     if(!file) throw new Error("No tenemos ningún archivo a subir");
 
-    const cloudUrl = 'https://api.cloudinary.com/v1_1/dd7vgmlam/upload';
+    const cloudUrl = cloudURL;
 
     const formData = new FormData();
     formData.append( 'upload_preset','react-journal' );

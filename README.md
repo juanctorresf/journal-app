@@ -1,8 +1,81 @@
-# React + Vite
+# Journal App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- ![Journal App Logo](link-to-your-logo-image.png) -->
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Journal App** es una aplicación web desarrollada con **React** que permite a los usuarios crear, guardar, editar y eliminar notas, incluyendo la posibilidad de adjuntar imágenes a sus entradas. La aplicación utiliza tecnologías modernas como **Redux** para la gestión del estado, **React Router** para la navegación, **Firebase** para la autenticación y almacenamiento de datos, y **Cloudinary** para el manejo de imágenes.
+
+## Características Principales
+
+- **Autenticación de Usuario:** Permite a los usuarios crear y gestionar cuentas personalizadas para acceder a la aplicación de forma segura.
+
+- **Creación y Edición de Notas:** Los usuarios pueden crear nuevas notas, editar su contenido y adjuntar imágenes para personalizar sus entradas.
+
+- **Almacenamiento en Tiempo Real:** Utiliza **Firebase** para el almacenamiento en tiempo real, lo que garantiza que los cambios realizados por un usuario se reflejen instantáneamente en todos los dispositivos.
+
+- **Gestión de Estado con Redux:** Implementa **Redux** para una gestión eficiente del estado de la aplicación, facilitando el seguimiento de los cambios y la actualización de la interfaz de usuario de manera coherente.
+
+- **Navegación Fluida:** Se utiliza **React Router** para una navegación suave y una experiencia de usuario sin interrupciones.
+
+- **Gestión de Imágenes con Cloudinary:** Permite a los usuarios adjuntar imágenes a sus notas mediante la integración con **Cloudinary** para el almacenamiento y procesamiento de imágenes.
+
+## Configuración del Proyecto
+
+1. **Clonar el Repositorio:**
+
+    ```bash
+    git clone https://github.com/tu-usuario/journal-app.git
+    cd journal-app
+    ```
+
+2. **Instalar Dependencias:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Configurar Firebase:**
+   - Crea un proyecto en [Firebase](https://console.firebase.google.com/).
+   - Obtén las credenciales de tu proyecto y configura la autenticación con Firebase.
+   - Configura la base de datos en tiempo real de Firebase.
+
+4. **Configurar Cloudinary:**
+   - Regístrate en [Cloudinary](https://cloudinary.com/) y obtén las credenciales.
+   - Configura la integración con Cloudinary en la aplicación.
+
+5. **Configurar Variables de Entorno:**
+   - Crea un archivo `.env.local` en la raíz del proyecto y configura las variables de entorno necesarias.
+
+    ```env
+    VITE_REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
+    VITE_REACT_APP_FIREBASE_AUTH_DOMAIN=your-firebase-auth-domain
+    VITE_REACT_APP_FIREBASE_PROJECT_ID=your-firebase-project-id
+    VITE_REACT_APP_FIREBASE_STORAGE_BUCKET=your-firebase-storage-bucket
+    VITE_REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-firebase-messagin-sender-id
+    VITE_REACT_APP_FIREBASE_APP_ID=your-firebase-app-id
+
+    VITE_REACT_APP_CLOUDINARY_CLOUD_URL=your-cloudinary-cloud-url
+    ```
+
+6. **Ejecutar la Aplicación:**
+
+    ```bash
+    npm start
+    ```
+
+La aplicación estará disponible en `http://localhost:3000`.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias para mejorar la aplicación, no dudes en abrir un problema o enviar un pull request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+---
+
+¡Esperamos que disfrutes usando **Journal App**! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.
+
+*Hecho con ❤️ por Juan Torres*
