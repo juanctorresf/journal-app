@@ -4,7 +4,7 @@
 
 ## Descripción
 
-**Journal App** es una aplicación web desarrollada con **React** que permite a los usuarios crear, guardar, editar y eliminar notas, incluyendo la posibilidad de adjuntar imágenes a sus entradas. La aplicación utiliza tecnologías modernas como **Redux** para la gestión del estado, **React Router** para la navegación, **Firebase** para la autenticación y almacenamiento de datos, y **Cloudinary** para el manejo de imágenes.
+Bienvenido a **Journal App**, una aplicación desarrollada con **React** que te permite llevar un diario personalizado con la capacidad de almacenar notas y añadir imágenes. La aplicación utiliza diversas tecnologías, incluyendo **Redux**, **React Router**, **Firebase**, **Cloudinary** y **Material UI** para proporcionar una experiencia completa y fácil de usar.
 
 ## Características Principales
 
@@ -25,7 +25,7 @@
 1. **Clonar el Repositorio:**
 
     ```bash
-    git clone https://github.com/tu-usuario/journal-app.git
+    git clone https://github.com/juanctorresf/journal-app.git
     cd journal-app
     ```
 
@@ -70,12 +70,12 @@ La aplicación estará disponible en `http://localhost:3000`.
 
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias para mejorar la aplicación, no dudes en abrir un problema o enviar un pull request.
 
-## Licencia
+<!-- ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles. -->
 
 ---
 
-¡Esperamos que disfrutes usando **Journal App**! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.
+¡Esperamos que disfrutes usando **Journal App**! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo.
 
 *Hecho con ❤️ por Juan Torres*
